@@ -1,0 +1,519 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0, 0.5)50%, rgba(0,0,0, 0.5)50%), url(backgr.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon {
+    width: 120px;
+    float: left;
+    height: 70px;
+    flex: 1;
+}
+
+.icon img {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.menu {
+    width: 400px;
+    float:left;
+    height: 70px;
+    flex: 2;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font: size 14px;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+    color: #ff7200;
+}
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch {
+    font-family: 'Times New Roman';
+    width: 200px;
+    height:40px;
+    background: transparent;
+    float: left;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float:left;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width:1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+.content h1{
+    font-family: Arial;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0, 0.8)50%), rgba(0,0,0, 0.8)50%);
+    position: absolute;
+    top: 120px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height:35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #ff7200;
+    transition: 0.4s ease;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+footer{
+    background: #000;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    font-size: 18px;
+    padding: 35px;
+    right: 0;
+    left:0;
+    bottom:0;
+}
+.fbtn {
+    background: #fff;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 30px;
+    border-radius: 4px;
+    width: 40px;
+}
+
+.ggbtn {
+    background: #fff;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 15px;
+    border-radius: 3px;
+    width: 40px;
+    height: 43px;
+}
+
+.iibtn {
+    background: #fff;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 15px;
+    border-radius: 3px;
+    width:40px;
+}
+
+.ttbtn {
+    background: #fff;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 15px;
+    border-radius: 3px;
+    width: 40px;
+}
+
+.img{
+    width: 35px;
+    height: auto;
+    padding: 2px;
+}
+.cont{
+    position: relative;
+}
+.cont .wrapper {
+    width: 60vw;
+    height: 75vh;
+    box-shadow: 10px 10px 20px rgba(0,0,0, 0.8);
+    margin: 5rem auto;
+    overflow: hidden;
+}
+
+.cont .wrapper-holder {
+    display:grid;
+    grid-template-columns: repeat(4,100%);
+    height: 100%;
+    weight: 100%;
+    animation: slider 25s ease-in-out infinite alternate;
+}
+.cont #slider-img-1{
+    background-image:url(https://da.lowes.ca/webassets/images/786425_11455560_001_l.jpg);
+    background-position: center;
+}
+.cont #slider-img-2{
+    background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fcambridgecrownandtrim.ca%2Fproducts%2Flogan-solid-core-door-only-1&psig=AOvVaw1NJuAa3kxfoe_KgCs-F97m&ust=1700134061408000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCMiSgJjzxYIDFQAAAAAdAAAAABAE);
+    background-position: center;
+}
+.cont #slider-img-3{
+    background-image:url(https://www.ikea.com/ca/en/images/products/enkoeping-glass-door-white-wood-effect__1044270_pe842069_s5.jpg?f=s);
+    background-position: center;
+}
+.cont #slider-img-4{
+    background-image:url(https://cambridgecrownandtrim.ca/cdn/shop/products/LincolnParkDoorOnly_313c42b8-24bf-41cf-96fb-d4ed7338dd0b_1024x1024.jpg?v=1637592847);
+    background-position: center;
+}
+
+.cont #slider-img-5{
+    background-image:url(https://assets.wfcdn.com/im/70151437/resize-h445%5Ecompr-r85/2207/220738908/Quadro+Frosted+Glass+Panelled+Solid+Manufactured+Wood+Standard+Door.jpg);
+    background-position: center;
+}
+
+.cont #slider-img-6{
+    background-image:url(https://premiumdoorsystems.ca/wp-content/uploads/2021/12/20211119_140409_resized.jpg);
+    background-position: center;
+}
+
+.cont .button-holder .button {
+    background-color: #ff7200;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: .3rem;
+}
+.cont .button-holder{
+    position: relative;
+    left:45%;
+    bottom:0%;
+}
+.button:hover{
+    box-shadow: 0px 0px 7px 4px;
+}
+@keyframes slider{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
+
+.conttt{
+    position: relative;
+}
+.conttt .wrappertt {
+    width: 60vw;
+    height: 75vh;
+    box-shadow: 10px 10px 20px rgba(0,0,0, 0.8);
+    margin: 5rem auto;
+    overflow: hidden;
+}
+
+.conttt .wrappertt-holder {
+    display:grid;
+    grid-template-columns: repeat(4,100%);
+    height: 100%;
+    weight: 100%;
+    animation: slider 25s ease-in-out infinite alternate;
+}
+.conttt #slidertt-img-1{
+    background-image:url(https://stalabuildingsolutions.ca/wp-content/uploads/2019/08/colonial-baseboards.jpg);
+    background-position: center;
+}
+.conttt #slidertt-img-2{
+    background-image:url(https://cambridgecrownandtrim.ca/cdn/shop/products/BaseboardContemporary512View1_1024x1024.png?v=1654522476);
+    background-position: center;
+}
+.conttt #slidertt-img-3{
+    background-image:url(https://expertcrownmoulding.ca/wp-content/uploads/2019/09/Crown-Moulding3-640x480.jpg);
+    background-position: center;
+}
+.conttt #slidertt-img-4{
+    background-image:url(https://assets.wfcdn.com/im/22087542/resize-h445%5Ecompr-r85/1445/144591350/Dekorman+8+Feet+Primed+Mdf+Board.jpg);
+    background-position: center;
+}
+.conttt #slidertt-img-5{
+    background-image:url(https://marvel-b1-cdn.bc0a.com/f00000000240211/images.squarespace-cdn.com/content/v1/5a8d7c8780bd5e7c399b41c3/1612977749310-P8IN1ATC74NWF7T6TM5O/CoverTrim_Colonial_IUCU_1-2_WR_Touchup.jpg?format=1500w);
+    background-position: center;
+}
+.conttt #slidertt-img-6{
+    background-image:url(https://www.flooringliquidators.ca/wp-content/uploads/2019/09/moldings-and-trim-store-hamilton.jpg);
+    background-position: center;
+}
+
+
+.conttt .button-holder .button {
+    background-color: #ff7200;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: .3rem;
+}
+.conttt .button-holder{
+    position: relative;
+    left:45%;
+    bottom:0%;
+}
+
+.contth{
+    position: relative;
+}
+.contth .wrapperth {
+    width: 60vw;
+    height: 75vh;
+    box-shadow: 10px 10px 20px rgba(0,0,0, 0.8);
+    margin: 5rem auto;
+    overflow: hidden;
+}
+
+.contth .wrapperth-holder {
+    display:grid;
+    grid-template-columns: repeat(4,100%);
+    height: 100%;
+    weight: 100%;
+    animation: slider 25s ease-in-out infinite alternate;
+}
+.contth #sliderth-img-1{
+    background-image:url(https://m.media-amazon.com/images/I/31OFnagsyZL._AC_US75_.jpg);
+    background-position: center;
+}
+.contth #sliderth-img-2{
+    background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.canadiantire.ca%2Fen%2Fpdp%2Fweiser-single-cylinder-round-deadbolt-door-lock-nickel-0467257p.html&psig=AOvVaw2g8QIHohZ19d0R9Hsnxa0L&ust=1701451895223000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCgybCg7IIDFQAAAAAdAAAAABAW);
+    background-position: center;
+}
+.contth #sliderth-img-3{
+    background-image:url(https://images.homedepot.ca/productimages/p_1000676061.jpg?product-images=xs);
+    background-position: center;
+}
+.contth #sliderth-img-4{
+    background-image:url(https://www.thespruce.com/thmb/j5CuEHnp4pS1oWgrcSNuvGMBcds=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/best-door-locks-4175031-bf176884175d460680efd6dbbb2a3899.jpg);
+    background-position: center;
+}
+.contth #sliderth-img-5{
+    background-image:url(https://m.media-amazon.com/images/I/31Tlq7clCxL._AC_US75_.jpg);
+    background-position: center;
+}
+
+
+
+.contth .button-holder .button {
+    background-color: #ff7200;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: .3rem;
+}
+.contth .button-holder{
+    position: relative;
+    left:45%;
+    bottom:0%;
+}
+
+@keyframes slidertt{
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    position: fixed; 
+    bottom: 0;
+    left: 0; 
+    box-sizing: border-box;
+
+footer a {
+    text-decoration: none;
+    color: white; 
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+
+
+.main img {
+  max-width: 100%; 
+  height: auto;
+  display: block; 
+}
